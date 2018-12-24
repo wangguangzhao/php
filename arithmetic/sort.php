@@ -1,6 +1,11 @@
 <?php
 /*
 	经典排序算法
+	冒泡排序
+	选择排序
+	插入排序
+	快速排序
+	归并排序
 */
 
 class Sort{
@@ -179,15 +184,15 @@ class Sort{
 }
 
 
-$tmparr = [1,34,4,3,6,23,74,99,23,54,86];
+// $tmparr = [1,34,4,3,6,23,74,99,23,54,86];
 
-$sortObj = new Sort($tmparr);
+// $sortObj = new Sort($tmparr);
 // $rel = $sortObj->bubbleSort("desc");
  // $rel = $sortObj->selectSort();
  // $rel = $sortObj->mergeSort("desc");
 // $rel = $sortObj->insertSort("desc");
-$rel = $sortObj->quickSort("Desc");
+// $rel = $sortObj->quickSort("Desc");
 
  
-print_r($rel);
+// print_r($rel);
 
